@@ -191,7 +191,7 @@ If you find this project helpful or interesting, star this repository on GitHub 
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-Special thanks to **Nelson Sakwa** who has the owner of the design.
+Special thanks to **<a href="https://www.behance.net/sakwadesignstudio">Nelson Sakwa</a>** who has the owner of the design.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
