@@ -153,10 +153,11 @@ npm test
 
 ## 👥 Authors <a name="authors"></a>
 
-👤 **Meryem Sanem Küçükbayram**
+👤 **Siddhartha Ghosh**
 
-- GitHub: [@meryemsanem](https://github.com/meryemsanem)
-- LinkedIn: [@meryemsanem](https://www.linkedin.com/in/meryemsanemkucukbayram/)
+- GitHub: [@siddghosh108](https://github.com/siddghosh108)
+- Twitter: [@siddharthaghos9](https://twitter.com/siddharthaghos9)
+- LinkedIn: [@siddhartha-ghosh-65902718](https://www.linkedin.com/in/siddhartha-ghosh-65902718)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -175,7 +176,6 @@ npm test
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/meryemsanem/countries-capstone-project/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
