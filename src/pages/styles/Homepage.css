@@ -1,3 +1,4 @@
+/* Common styles for both desktop and mobile views */
 .loading,
 .error {
   display: flex;
@@ -19,6 +20,7 @@
   grid-template-columns: repeat(3, minmax(0, 1fr));
   justify-content: center;
   width: 100%;
+  font-family: 'Lato', sans-serif; /* Change the font to Lato */
 }
 
 .countries-container > :nth-child(even) {
@@ -46,4 +48,11 @@ button {
   padding: 8px;
   border-radius: 8px;
   color: #4468b0;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .countries-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Change to 2 columns for mobile */
+  }
 }
