@@ -74,10 +74,16 @@ function Countries() {
         </div>
         <div className="countries-container">
           {sortedCountries.map((country) => (
-            <Country key={country.countryID} country={country} />
+            <div className="country-card" key={country.countryID}>
+              <div className="arrow-circle">
+                <div className="arrow" />
+              </div>
+              <Country country={country} />
+            </div>
           ))}
         </div>
       </div>
+
     </>
   );
 }
