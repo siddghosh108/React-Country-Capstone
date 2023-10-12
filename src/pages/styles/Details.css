@@ -1,0 +1,67 @@
+.back-btn {
+  color: white;
+  border: none;
+  background-color: #4468b0;
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.container img {
+  max-width: 100%; /* Make the image responsive to the container width */
+  height: auto;
+  display: block;
+  margin: 40px auto;
+}
+
+.container {
+  margin: 0 auto; /* Center the container */
+  max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+  padding: 0 20px; /* Add some padding for mobile view */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.country-name-details,
+.country-details-off {
+  text-align: center;
+  max-width: 100%; /* Ensure the text doesn't exceed the container width */
+  margin: 0 auto; /* Center align text within the container */
+}
+
+.flex-container {
+  padding: 10px;
+  background-color: #4468b0;
+  border-radius: 40px;
+  color: white;
+  border: 1px solid #4468b0;
+  max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+  margin: 0 auto; /* Center the container */
+  box-sizing: border-box; /* Include padding in the width calculation */
+}
+
+.details-country {
+  background-color: #355087;
+  display: flex;
+  flex-direction: column; /* Stack the elements vertically */
+  align-items: center; /* Center align the items */
+}
+
+.header {
+  text-align: center;
+  color: white;
+}
+
+.details-container {
+  background-color: #355087;
+}
+
+.not-found {
+  text-align: center;
+  color: #355087;
+}
+
+/* Add a media query to adjust styles for mobile view */
+@media (max-width: 768px) {
+  .details-country {
+    height: auto; /* Allow the height to adjust based on content */
+  }
+}

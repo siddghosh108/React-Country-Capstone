@@ -1,0 +1,88 @@
+/* Common styles for both desktop and mobile views */
+.loading,
+.error {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #355087;
+  font-size: 24px;
+}
+
+.search {
+  display: flex;
+  padding: 20px;
+  background-color: #355087;
+  justify-content: space-evenly;
+}
+
+.countries-container {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  justify-content: center;
+  width: 100%;
+  font-family: 'Lato', sans-serif; /* Change the font to Lato */
+  font-size: 17px;
+}
+
+.countries-container > :nth-child(even) {
+  background-color: #4468b0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.countries-container > :nth-child(odd) {
+  background-color: #355087;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 17px;
+}
+
+.search-area {
+  text-align: center;
+  border: none;
+  border-radius: 8px;
+}
+
+button {
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  color: #4468b0;
+}
+
+/* Media query for mobile view */
+@media (max-width: 768px) {
+  .countries-container {
+    grid-template-columns: repeat(2, minmax(0, 1fr)); /* Change to 2 columns for mobile */
+  }
+}
+
+.country-card {
+  position: relative;
+}
+
+.arrow-circle {
+  position: absolute;
+  top: 5px; /* Adjust the positioning */
+  right: 5px; /* Adjust the positioning */
+  width: 20px; /* Adjust the size of the circle as needed */
+  height: 20px; /* Adjust the size of the circle as needed */
+  background-color: #4468b0;
+  border: 2px solid white; /* Add a white border */
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.arrow {
+  width: 14px; /* Adjust the arrow width as needed */
+  height: 14px; /* Adjust the arrow height as needed */
+  background-image: url('arrow.png'); /* Replace 'arrow.png' with the URL of your arrow image */
+  background-size: cover;
+  position: relative;
+  margin: 0;
+}
