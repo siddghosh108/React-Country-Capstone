@@ -28,18 +28,16 @@ function Details() {
   return (
     <div className="details-container">
       <div className="details-country">
-        <div className="background">
-          <button
-            type="button"
-            onClick={() => navigation('/')}
-            className="back-btn"
-          >
-            <BiArrowBack />
-          </button>
-        </div>
+        <button
+          type="button"
+          onClick={() => navigation('/')}
+          className="back-btn"
+        >
+          <BiArrowBack />
+        </button>
         <h2 className="header">
           {countryDetails.name}
-          &apos;s Details
+          `&apos;s Details
         </h2>
       </div>
       <div className="container">
@@ -68,15 +66,18 @@ function Details() {
           </h4>
           <h4 className="country-details">
             Area:
+            {' '}
             {countryDetails.area}
           </h4>
           <h4 className="country-details">
             Timezone:
+            {' '}
             {countryDetails.timezone[0]}
           </h4>
         </div>
       </div>
     </div>
+
   );
 }
 
